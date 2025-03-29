@@ -102,7 +102,7 @@ sigmas = np.array([0.5])  # Example Gaussian width
 
 
 
-pyget_local_kernels_gaussian(q1, q1, n1, n1, sigmas)
+print(pyget_local_kernels_gaussian(q1, q1, n1, n1, sigmas))
 
 # Notes on implementation:
 '''
